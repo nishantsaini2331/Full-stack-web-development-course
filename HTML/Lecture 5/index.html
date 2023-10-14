@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lecture</title>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Table</h1>
+
+      <!-- <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table> -->
+
+      <table>
+        <caption>
+          A test table with mergered cells
+        </caption>
+        <!-- row 1 -->
+        <colgroup>
+          <col span="" style="background-color: aqua; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" />
+          <col span="" style="background-color: rgb(194, 215, 57); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" />
+        </colgroup>
+
+        <tr>
+          <td rowspan="2"></td>
+          <td colspan="2">Average</td>
+
+          <td rowspan="2">Red Eyes</td>
+        </tr>
+
+        <!-- row 2 -->
+        <tr>
+          <td>Height</td>
+          <td>weight</td>
+        </tr>
+
+        <!-- row 3 -->
+        <tr>
+          <td>Males</td>
+          <td>1.9</td>
+          <td>0.003</td>
+          <td>40%</td>
+        </tr>
+
+        <!-- row 4 -->
+        <tr>
+          <td>females</td>
+          <td>1.7</td>
+          <td>0.002</td>
+          <td>43%</td>
+        </tr>
+      </table>
+
+      <br />
+      <br />
+
+      <table>
+        <caption>
+          Ration
+        </caption>
+        <thead>
+          <tr>
+            <th>Items</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rice</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>oil</td>
+            <td>120</td>
+          </tr>
+          <tr>
+            <td>Dal</td>
+            <td>60</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>Total</th>
+            <th>230</th>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </body>
+</html>
