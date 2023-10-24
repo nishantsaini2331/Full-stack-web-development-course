@@ -1,0 +1,42 @@
+h1{
+    color:yellowgreen;
+}
+
+/* class  */
+.wrapper{
+    background-color: blue;
+}
+
+/* id  */
+#hello{
+    background-color: orange;
+}
+.container{
+    background-color: rgb(7, 215, 7);
+}
+
+
+
+.message{
+    color: white;
+    background-color: purple;
+}
+
+/* ul li:nth-child(4){
+    background-color: red;
+} */
+
+/* ul li:nth-last-child(4){
+    background-color: peru;
+} */
+
+/* 
+ul li:nth-of-type(2n + 1){ 
+    background-color: purple;
+} */
+
+
+ul li:hover{
+    background-color: purple;
+    color: white;
+}
