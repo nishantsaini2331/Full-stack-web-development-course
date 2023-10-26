@@ -1,0 +1,43 @@
+h1{
+    color: yellow;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    /* font-style: normal; */
+    
+    text-align: center;
+    text-decoration:  underline wavy 2px rgb(255, 255, 255);
+    /* text-decoration-color: black; */
+
+    text-transform: lowercase;
+
+    text-shadow: 4px 4px 2px purple; 
+
+
+}
+
+.name:hover{
+    background-color: green;
+    text-shadow: none;
+    text-transform: uppercase;
+    text-decoration: underline white;
+}
+
+.dummyText{
+    background-color: #a9e4ab;
+    color: red;
+}
+
+.dummyText:hover{
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+}
+
+.wrapper{
+    background-color: orange;
+    border: 1px solid black;
+    /* border-radius: 20px ; */
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
