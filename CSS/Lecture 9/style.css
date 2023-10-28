@@ -1,0 +1,44 @@
+
+h1{
+    color: red;
+    /* background-color: yellow; */
+}
+
+#container{
+    border: 1px solid black;
+    width: 700px;
+    height: 400px;
+    background-image: url(https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367_640.jpg); 
+    background-repeat: no-repeat;
+    /* auto(original) contain cover */
+    background-size: cover;  
+}
+
+p{
+    /* normal tarika */
+    /* color: white; */
+
+
+    /* hex code wala tarika */
+    /* color: #bfff00 */
+
+    /* rgb */
+    /* color:rgb(118, 179, 61) */
+    /* color: rgba(176, 23, 23, 0.682); */
+
+    /* hsl */
+    /* color: hsl(156, 72%, 49%); */
+    color: hsla(62, 93%, 48%, 0.897);
+}
+
+
+body{
+    /* background: linear-gradient(to left,red, yellow); */
+    /* background: radial-gradient(red,green, yellow,pink); */
+    /* background: conic-gradient(red,green, yellow); */
+    background: rgb(64,165,222);
+    background: linear-gradient(36deg, rgba(64,165,222,1) 1%, rgba(42,160,184,1) 47%, rgba(42,69,184,1) 82%, rgba(42,160,184,1) 84%);
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
