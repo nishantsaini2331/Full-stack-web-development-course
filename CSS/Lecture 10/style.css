@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    border: 1px solid black;
+    padding: 20px;
+    /* margin: 20px; */
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    /* padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 5px; */
+
+    /* padding: top right bottom left; */
+    /* padding: 30px 0 0 0 ; */
+    /* padding: 30px 20px 10px 5px ; */
+
+    /* padding: top-bottom left-right; */
+    /* padding: 30px 40px ; */
+
+    /* padding: top left-right bottom; */
+    /* padding: 20px 6px 10px ; */
+    
+    /* margin in homework */
+
+    /* margin: auto; */
+
+    /* width: 100px; */
+    /* margin: 50px; */
+
+
+}
+
+span{
+    /* display: block; */
+    margin: 40px;
+    display: inline-block; 
+    border: 1px solid black;
+    width: 100px ;
+    height: 100px;
+} 
+
+
+
+
