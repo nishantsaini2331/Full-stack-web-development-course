@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 60px;
+}
+
+.parent{
+    /* border: 1px solid red; */
+    background-color: #f4b2e8;
+    /* width: 400px; */
+    /* height: 500px; */
+    width: 50vw;
+    height: 50vh;
+    font-size: 20px;
+}
+
+.child{
+    font-size: 1rem;
+    background-color: rgb(67, 179, 74);
+    width: 50%;
+    height: 50%;
+}
