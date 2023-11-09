@@ -1,0 +1,87 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Libre+Franklin:ital,wght@0,100;0,500;1,200;1,900&family=Oswald:wght@200;300;400;600&family=Playpen+Sans:wght@100&family=Poppins:ital,wght@0,400;0,500;0,600;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+
+.loginPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 50%;
+    height: 70%;
+    background-color: #86868652;
+    border-radius: 30px;
+    backdrop-filter: blur(1px);
+
+}
+
+
+.loginDetails{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* font-family: 'Lato', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Poppins', sans-serif; */
+.password{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+}
+
+input[type="text"],input[type="password"]{
+    font-family: 'Libre Franklin', sans-serif;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background: linear-gradient(40deg,rgba(255, 248, 192, 0.615),pink);
+}
+
+p{
+    cursor: pointer;
+    text-decoration: underline;
+}
