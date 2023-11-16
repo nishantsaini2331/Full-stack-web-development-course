@@ -151,3 +151,165 @@
 }
 
 
+.bg1{
+    background-image: url(assets/bg1.jpeg);
+    height: 55%;
+    background-size: cover;
+}
+
+.bg1 > div > h2{
+    color: white;
+    font-size: 2.8em;
+    font-weight: 600;
+}
+
+.bg1 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 170px 0 0 950px; 
+}
+.bg1 > div > p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.554);
+}
+
+.bg2{
+    background-image: url(assets/bg2.jpeg);
+    height: 55%;
+    background-size: cover;
+}
+
+.bg2 > div > h2{
+    color: white;
+    font-size: 2.8em;
+    font-weight: 600;
+}
+
+.bg2 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 170px 0 0 450px; 
+}
+.bg2 > div > p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.554);
+}
+.bg3{
+    background-image: url(assets/bg3.jpeg);
+    height: 55%;
+    background-size: cover;
+}
+
+.bg3 > div > h2{
+    color: white;
+    font-size: 2.8em;
+    font-weight: 600;
+}
+
+.bg3 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 170px 0 0 950px; 
+}
+.bg3 > div > p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.554);
+}
+
+
+.bg4{
+    background-image: url(assets/bg4.jpeg);
+    height: 55%;
+    background-size: cover;
+}
+
+.bg4 > div > h2{
+    color: white;
+    font-size: 2.8em;
+    font-weight: 600;
+}
+
+.bg4 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 170px 0 0 450px; 
+}
+.bg4 > div > p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.554);
+}
+
+.faqs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 61%;
+    gap: 50px;
+}
+
+.faqDetail{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.faqDetail > p{
+    font-size:25px;
+    font-weight: 800;
+}
+.drop{
+    display: flex;
+    justify-content: space-between; 
+    padding:  20px 0;
+    font-size :18px;
+    font-weight: 700;
+}
+
+hr{
+
+    opacity: 0.4;
+}
+
+.helpCenter > p {
+    font-size: 20px;
+    font-weight: 800;
+    padding-right: 500px;
+}
+.helpCenter > p > span {
+    color: #3ebaff;
+}
+
+*::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #000000;
+}
+
+*::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #000000;
+}
+
+*::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #a4a4a4;
+}
