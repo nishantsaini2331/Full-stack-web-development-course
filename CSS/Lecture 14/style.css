@@ -1,0 +1,62 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    /* transform: translateY(50px) translateX(50px); */
+    /* transform: translateY(50px); */
+    /* transform: translate(50px, 50px); */
+    border: 10px solid black;
+    /* transform:rotateY(9deg); */
+    /* transform:rotate(80deg); */
+    /* transform:translateY(90px) scaleY(2); */
+    /* transform:  translate() rotate() scale(); */
+    /* transform:  translate(90px) rotate(170deg) scale(1.1); */
+    /* transform:scaleY(1.5); */
+    /* transition-property: all; */
+
+    /* transform: skewy(-45deg); */
+    /* transform:perspective(300px) translateZ(150px); */
+    /* transform:perspective(300px) rotatex(20deg) ; */
+    /* transform:perspective(300px) scale3d(2,5,10) rotatey(2deg) ; */
+     /* transform: perspective(300px) translate3d(40px,40px,30px);  */
+    
+
+
+
+}
+
+.box:hover{
+    /* scroll-padding-top: 50px ; */
+    /* width: 1000px; */
+    /* height: 1000px; */
+    /* background-color: red; */
+    /* transition-duration: 1s; */
+    /* transition-delay: 2s; */
+    /* transition-timing-function: ease-out; */
+
+    /* transition : property duration timing-function delay ; */
+    /* transition: all 0.5s ease-in 0.5 ; */
+
+    /* transform:translateX(50px); */
+
+    
+
+}
