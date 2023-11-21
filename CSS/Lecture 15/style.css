@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    background-color: lightgreen;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation-name: nishant;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 5s;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both; */
+
+    animation: xyz 2s linear 1s infinite alternate both;
+
+}
+
+
+/* VIBGYOR */
+
+@keyframes xyz {
+    /* from {
+        background-color: yellow;
+        width: 500px;
+        height: 200px;
+    }
+    to {
+        transform: translateX(200px);
+        background-color: gray;
+        width: 1000px;
+        height: 400px;
+    } */
+
+
+    0%{
+        background-color: violet;
+        top: 0;
+        left: 0;
+    }
+    15% {
+        background-color: indigo;
+    }
+    30%{
+        background-color: blue;
+    }
+
+    45% {
+        background-color: green;
+    }
+
+    60% {
+        background-color: yellow;
+    }
+
+    75% {
+        background-color: orange;
+    }
+    100%{
+        background-color: red;
+        top: 0;
+        left: 100%;
+    }
+}
+
+/* h1:hover{
+    width: 1000px;
+    height: 400px;
+    transition: 5s cubic-bezier(0, 1.22, 1,-0.35) ;
+} */
