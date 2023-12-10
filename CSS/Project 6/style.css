@@ -157,8 +157,8 @@
 .maaBeti{
     overflow: hidden;
     display: flex;
-    justify-content: space-evenly;
-    padding: 0 120px;
+    justify-content: space-around;
+    /* padding: 0 100px; */
     align-items: center;
     border-radius: 25px;
     background-image: url(whatsApp/MaaBeti.png);
@@ -177,7 +177,7 @@
 .right {
     margin-top: 9%;
     position: relative;
-    width: 30%;
+    width: 500px;
     height: 100%;
 }
 .right img:nth-child(1){
@@ -323,6 +323,7 @@
 }
 
 .left {
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 90px;
@@ -566,4 +567,256 @@ select {
 .angle{
     right: 20px;
     position: absolute;
+}
+
+.navbar2{
+    display: none;
+}
+
+.media{
+    display: none;
+}
+
+
+/* Mobile: 320px–480px
+Tablets: 481px–768px
+Small screens: 769px–1024px
+Large screens: 1025px–1200px
+Extra large screens: 1201px and above */
+
+.footer2{
+    display: none;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .navbar {
+        display: none;
+    }
+    .navbar2{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .btn2 {
+        background-color: #25d366;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }
+    .whatsappLogo2{
+        width: 23%;
+    }
+    .right img:nth-child(4) , .right img:nth-child(5) ,.right img:nth-child(6) ,.right img:nth-child(7) {
+        display: none;
+    }
+
+    .maaBeti {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: end;
+        align-items: center;
+        border-radius: 25px;
+        background-image: url(whatsApp/MaaBeti.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+    }
+    .leftMsg {
+        margin-bottom: 50px;
+    }
+
+    .leftMsg > h1 {
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        line-height: 50px;
+        letter-spacing: -3px;
+        font-size: 2.5em;
+        font-weight: 300;
+    }
+
+    .leftMsg > p {
+        font-size: 13px;
+        width: 70%;
+    }
+    .right{
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 350px;
+        height: 120px;
+    }
+    .left {
+        margin-left: 50px;
+        margin-bottom: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .navbar > button, .btn {
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        gap: 1px;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 2px;
+        font-size: 15px;
+        border-radius: 60px;
+        background-color: #25d366;
+        border: none;
+        border: 0.1px solid black;
+        z-index: 1;
+        width: 50%;
+    }
+
+    .right img:nth-child(1) {
+        width: 300px;
+        animation: gm 0.5s ease-in-out;
+    }
+
+    .right img:nth-child(2) {
+        position: absolute;
+        right: 50px;
+        top: 12px;
+        width: 300px;
+        animation: dil 1s ease-in-out;
+    }
+
+    .right img:nth-child(3) {
+        margin-left: 20px;
+        width: 300px;
+        animation: chai 1.8s ease-in-out;
+    }
+
+    .firstSection > p {
+        padding-top: 15px;
+        font-size: 12px;
+        text-align: start;
+        opacity: 0.8;
+    }
+
+
+    .media2{
+        display: none;
+    }
+
+    .media{
+        display: block;
+    }
+    #p2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .thirdSection {
+        overflow: hidden;
+    }
+
+    .firstBday{
+        padding: 0 30px;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+    .firstBday2 {
+        flex-direction: column-reverse;
+    }
+    .leftPart p:nth-child(1) {
+        width: 100%;
+        overflow: hidden;
+        font-size: 1.8em;
+        line-height: 30px;
+    }
+
+
+    .hello{ 
+        display: none;
+    }
+
+    .footer2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 100px; 
+        color: white;
+        height: 900px;
+        background-color: #111b21;
+    }
+    hr {
+        color: rgb(0, 0, 0);
+        width: 100%;
+    }
+
+    .f2btn {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+    } .f2social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200%;
+        height: 200px;
+    }
+
+    .f2part{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        gap: 30px;
+        margin-top: 30px;
+        justify-content: space-around;
+    }
+
+    .f2part > img {
+
+        width: 25%;
+
+        margin-left: 50px;
+    }
+
+    .part1 ,.part2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .part1_1 > p , .part1_2 > p , .part2_1 > p , .part2_2 > p{
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .lowerPart{
+        width: 100%;
+        display: flex;
+        height: 200px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    select {
+        -webkit-appearance: none;
+        border-radius: 30px;
+        color: white;
+        background-color: black;
+        border: 1px solid white;
+        padding: 20px 90px 20px 30px;
+    }
+
+    .angle{
+        right: 70px;
+        position: absolute;
+    }
+    
 }
