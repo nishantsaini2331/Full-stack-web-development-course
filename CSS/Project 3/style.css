@@ -85,3 +85,177 @@ p{
     cursor: pointer;
     text-decoration: underline;
 }
+
+/* very small devices */
+
+@media screen and (max-width:319px) {
+    
+}
+
+/* Mobile devices */
+
+
+@media screen and (min-width : 320px) and (max-width : 480px) {
+    .container {
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+        background-position: center;
+    }
+
+    .loginPage {
+        gap: 20px;
+        width: 80%;
+        height: 85%;
+    }
+
+    h1 {
+        font-family: 'Lato', sans-serif;
+        font-size: 60px;
+    }
+
+    .loginDetails {
+        width: 85%;
+        gap: 10px;
+    }
+
+    input[type="text"], input[type="password"] {
+        padding: 18px;
+        font-size: 16px;
+    }
+
+    .password {
+        font-size: 15px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
+
+/* Tablets and iPads */
+
+@media screen and (min-width : 481px) and (max-width : 768px) {
+    .container {
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+        background-position: center;
+    }
+
+    .loginPage {
+        gap: 20px;
+        width: 80%;
+        height: 85%;
+    }
+
+    h1 {
+        font-family: 'Lato', sans-serif;
+        font-size: 60px;
+    }
+
+    .loginDetails {
+        width: 85%;
+        gap: 10px;
+    }
+
+    input[type="text"], input[type="password"] {
+        padding: 18px;
+        font-size: 16px;
+    }
+
+    .password {
+        font-size: 15px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+/* Small screens */
+@media screen and (min-width : 769px) and (max-width : 1024px) {
+    .container {
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+        background-position: center;
+    }
+
+    .loginPage {
+        gap: 20px;
+        width: 80%;
+        height: 85%;
+    }
+
+    h1 {
+        font-family: 'Lato', sans-serif;
+        font-size: 90px;
+    }
+
+    .loginDetails {
+        width: 85%;
+        gap: 10px;
+    }
+
+    input[type="text"], input[type="password"] {
+        padding: 18px;
+        font-size: 20px;
+    }
+
+    .password {
+        font-size: 20px;
+        width: 80%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+/* Large screens */
+@media screen and (min-width : 1025px) and (max-width : 1200px) {
+    .container {
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+        background-position: center;
+    }
+
+    .loginPage {
+        gap: 20px;
+        width: 80%;
+        height: 85%;
+    }
+
+    h1 {
+        font-family: 'Lato', sans-serif;
+        font-size: 90px;
+    }
+
+    .loginDetails {
+        width: 85%;
+        gap: 10px;
+    }
+
+    input[type="text"], input[type="password"] {
+        padding: 18px;
+        font-size: 20px;
+    }
+
+    .password {
+        font-size: 20px;
+        width: 80%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+}
