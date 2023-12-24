@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .bgI{
+    border: 1px solid;
+    position: absolute;
+    scale: 0.2;
+    background: url(PaytmAsseests/asset\ 32.avif);
+    background-position: right;
+    background-size: auto;
+} */
+
+/* <div>
+                                <p>Home</p>
+                                <p>Financials</p>
+                                <p>Filings & Press Releases</p>
+                                <p>News & Events</p>
+                                <p>Corporate Governance</p>
+                                <p>Resources</p>
+                            </div> */
