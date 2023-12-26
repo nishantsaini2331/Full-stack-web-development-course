@@ -14,6 +14,12 @@ module.exports = {
             line:'#cccccc',
             fontColor:'#505050',
             smallFontColor:'#707086'
+        },
+        screens : {
+            'verySmall' : {'max' : "399px"},
+            'small' : {'max' :"550px"},
+            'medium' :{'max' :"768px"},
+            'large': {'max':'1070px'},
         }
     },
   },
