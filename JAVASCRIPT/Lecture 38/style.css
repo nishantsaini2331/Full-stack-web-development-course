@@ -1,0 +1,39 @@
+
+/* #mainDiv {
+    background-color: palegreen;
+}
+
+.childDiv{
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: #da9b9b;
+} */
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1, .box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background-color: grey;
+    width:800px;
+    height: 500px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: peru;
+}
