@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    border-radius: 30px;
+    border-bottom: 10px solid #d5a5a5;
+    border-right: 10px solid #d5a5a5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4f958;
+    width: 30%;
+    height: 70%;
+}
+
+.firstDiv,
+.SecondDiv {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#newPass,
+#range {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2em;
+    width: 80%;
+    height: 100%;
+    background: #d5a5a5;
+    border-radius: 20px;
+}
+
+#range {
+    height: 25%;
+}
+
+#copyBtn,
+#rangeVal {
+    scale: 3;
+}
+
+.SecondDiv {
+    height: 20%;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 100%;
+    background: #d5a5a5;
+    outline: none;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 47px;
+    height: 47px;
+    background: black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+.thirdDiv {
+    font-size: 30px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 900;
+}
+
+.inputDiv {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+
+
+
+#genPass {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    background: #d5a5a5;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+
+
+#genPass:hover {
+    background: #d5a5a5;
+    transform: scale(1.1);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 80%;
+        height: 80%;
+    }
+    .firstDiv,
+    .SecondDiv {
+        height: 15%;
+    }
+    #newPass,
+    #range {
+        font-size: 1.5em;
+    }
+    .thirdDiv {
+        font-size: 20px;
+    }
+    .inputDiv {
+        height: 15%;
+    }
+    #genPass {
+        font-size: 1.2em;
+    }
+
+    input[type="range"] {
+        width: 100%;
+        height: 100%;
+        background: #d5a5a5;
+        outline: none;
+        border-radius: 20px;
+        transition: 0.2s;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+        width: 30px;
+        height: 30px;
+        background: black;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    #copyBtn,
+    #rangeVal {
+        scale: 2;
+    }
+
+    #genPass:hover {
+        background: #d5a5a5;
+        transform: scale(1.1);
+    }
+
+    #genPass {
+        width: 80%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+        background: #d5a5a5;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    #genPass:hover {
+        background: #d5a5a5;
+        transform: scale(1.1);
+    }
+
+    #genPass {
+        font-size: 1.2em;
+    }
+
+    
+} 
+
+@media screen and (max-width: 425px) {
+    .main {
+        width: 90%;
+        height: 90%;
+    }
+    .firstDiv,
+    .SecondDiv {
+        height: 15%;
+    }
+    #newPass,
+    #range {
+        font-size: 1.5em;
+    }
+
+    .thirdDiv {
+        font-size: 20px;
+    }
+
+    .inputDiv {
+        height: 15%;
+    }
+
+    #genPass {
+        font-size: 1.2em;
+    }
+
+    input[type="range"] {
+        width: 100%;
+        height: 100%;
+        background: #d5a5a5;
+        outline: none;
+        border-radius: 20px;
+        transition: 0.2s;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+        width: 30px;
+        height: 30px;
+        background: black;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    #copyBtn,
+    #rangeVal {
+        scale: 2;
+    }
+
+    #genPass:hover {
+        background: #d5a5a5;
+        transform: scale(1.1);
+    }
+
+    #genPass {
+        width: 80%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+        background: #d5a5a5;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    
+}
