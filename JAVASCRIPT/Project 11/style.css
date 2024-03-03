@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondDiv{
+    display: flex;
+    background-color: #acf4c3;
+    width: 50%;
+    padding: 20px;
+    min-height: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.secondDivHidden{
+    display: none;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userImg{
+    border-radius: 50%;
+    width: 100%;
+}
+.userDetail{
+    font-size: 25px;
+    text-align: center;
+}
+.userName{
+    font-size: 2em;
+}
+.userFollow{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Follower{
+    display: flex ;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.repo {
+    font-size: 2em;
+    text-align: center;
+}
+
+.VisitProile{
+    background-color: rgb(60, 60, 60);
+    width: 80%;
+    height: 10%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  } 
+  .loader::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-bottom-color: #FF3D00;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
