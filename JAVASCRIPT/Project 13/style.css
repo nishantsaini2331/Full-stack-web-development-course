@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main{
+    border-radius: 20px;
+    padding: 30px;
+    width: 50%;
+    min-height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(227, 249, 178);
+}
+.firstDiv ,.secondDiv{
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+#weatherInfo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#cityName , #searchBtn ,.firstDiv > button { 
+    padding: 10px 20px 10px;
+    font-size: 2em;
+    border: none;
+    border-radius: 10px;
+}
+#searchBtn{
+    cursor: pointer;
+}
+
+.firstDiv > button{
+    width: 96%;
+    cursor: pointer;
+}
+
+.firstDiv > p , .desc {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+#temp{
+    font-size: 4em;
+}
+#city{
+    font-size: 2em;
+}
+
+.otherInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wind > p{
+    font-size: 1.8em
+}
