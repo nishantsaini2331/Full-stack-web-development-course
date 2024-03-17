@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    
+}
+.note {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(223, 241, 55);
+    font-size: 1.5em;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    background-color: rgb(255, 234, 211);
+}
+
+.main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#txtA {
+    background-color: rgba(56, 56, 56, 0.31);
+}
+
+.note::-webkit-scrollbar {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#allNote {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.singleNote {
+    background-color: rgba(19, 248, 229, 0.988);
+    border-radius: 10px;
+}
+h1 {
+    font-size: 4em;
+}
+
+.editBtn,
+.removeBtn ,#btn {
+    border: none;
+    padding: 10px;
+    font-size: 1.5em;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.index{
+    margin: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.date {
+    font-size: 1.5em;
+    margin: 10px;
+}
