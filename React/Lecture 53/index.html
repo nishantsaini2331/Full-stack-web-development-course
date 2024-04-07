@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- <h1>Code Thread</h1> -->
+
+        <div id="main">
+            <h2>Loading....</h2>
+        </div>
+
+        <script
+            crossorigin
+            src="https://unpkg.com/react@18/umd/react.development.js"
+        ></script>
+        <script
+            crossorigin
+            src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+        ></script>
+
+        <script>
+            // const h1 = document.createElement('h1');
+            // h1.innerText = "Code Thread";
+            // h1.setAttribute('id' , 1)
+            // console.log( h1)
+            // document.getElementById('main').appendChild(h1)
+
+            const h1 = React.createElement(
+                "h1",
+                {
+                    key: 1,
+                    className: "nishant",
+                    style: { backgroundColor: "orange", padding: "40px" },
+                },
+                "Code Thread"
+            );
+            
+            const h2 = React.createElement(
+                "h2",
+                {
+                    key: 2,
+                    className: "nishant",
+                    style: { backgroundColor: "orange", padding: "40px" },
+                },
+                "Code Thread"
+            );
+            let div = React.createElement("div", {}, [
+                h1,
+                h2,
+                React.createElement(
+                    "h3",
+                    {
+                        key: 3,
+                        className: "nishant",
+                        style: { backgroundColor: "purple", padding: "40px" },
+                    },
+                    "Code Thread"
+                ),
+            ]);
+            const root = ReactDOM.createRoot(document.getElementById("main"));
+            console.log(h1)
+            root.render(div);
+            // ReactDOM.render(div, document.getElementById("main"))
+        </script>
+    </body>
+</html>
